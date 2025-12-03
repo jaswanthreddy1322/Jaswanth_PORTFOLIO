@@ -37,6 +37,19 @@ The portfolio includes the following pages:
 2. Open `index.html` in your browser
 3. Navigate through the different pages using the navigation menu
 
+## 🌐 Deployment
+
+This portfolio is configured to deploy automatically to GitHub Pages. 
+
+### Automatic Deployment
+- Push changes to the `main` branch to trigger automatic deployment
+- The site will be available at `https://jaswanthreddy1322.github.io/Jaswanth_PORTFOLIO/`
+
+### Enable GitHub Pages
+1. Go to repository **Settings** → **Pages**
+2. Under **Build and deployment**, select **GitHub Actions** as the source
+3. The workflow will automatically deploy on push to main
+
 ## 📱 Pages Overview
 
 | Page | Description |
