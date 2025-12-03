@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jaswanth's Portfolio - Full Stack Developer specializing in modern web technologies">
+    <title>Jaswanth | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">Jaswanth</a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="internships.html">Internships</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Jaswanth</span></h1>
+            <p>A passionate Full Stack Developer creating innovative digital experiences with modern technologies</p>
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn btn-primary">View My Work</a>
+                <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick About Section -->
+    <section class="section">
+        <h2 class="section-title">What I <span>Do</span></h2>
+        <div class="grid grid-3" style="max-width: 1200px; margin: 0 auto;">
+            <div class="card">
+                <i class="fas fa-code" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                <h3>Web Development</h3>
+                <p style="color: var(--text-secondary); margin-top: 0.5rem;">Building responsive and dynamic websites using modern frameworks and best practices.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-palette" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                <h3>UI/UX Design</h3>
+                <p style="color: var(--text-secondary); margin-top: 0.5rem;">Creating intuitive and visually appealing user interfaces with great user experience.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-mobile-alt" style="font-size: 2.5rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                <h3>Mobile First</h3>
+                <p style="color: var(--text-secondary); margin-top: 0.5rem;">Developing applications with mobile-first approach for optimal cross-device experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="section" style="background: var(--darker-bg);">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="grid grid-3" style="max-width: 1200px; margin: 0 auto;">
+            <div class="project-card">
+                <div class="project-card-inner">
+                    <div class="project-card-front">
+                        <div style="height: 150px; background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%); border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-shopping-cart" style="font-size: 3rem; color: white;"></i>
+                        </div>
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured online shopping platform with payment integration.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-card-inner">
+                    <div class="project-card-front">
+                        <div style="height: 150px; background: linear-gradient(135deg, #fd79a8 0%, #f8a5c2 100%); border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-tasks" style="font-size: 3rem; color: white;"></i>
+                        </div>
+                        <h3>Task Management App</h3>
+                        <p>A collaborative project management tool with real-time updates.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Firebase</span>
+                            <span>Vuex</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-card-inner">
+                    <div class="project-card-front">
+                        <div style="height: 150px; background: linear-gradient(135deg, #00b894 0%, #55efc4 100%); border-radius: 10px; margin-bottom: 1rem; display: flex; align-items: center; justify-content: center;">
+                            <i class="fas fa-chart-line" style="font-size: 3rem; color: white;"></i>
+                        </div>
+                        <h3>Analytics Dashboard</h3>
+                        <p>Data visualization dashboard with interactive charts and reports.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>D3.js</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="projects.html" class="btn btn-primary">View All Projects</a>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section" style="text-align: center;">
+        <h2 class="section-title">Let's Work <span>Together</span></h2>
+        <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 2rem;">
+            Have a project in mind? Let's discuss how we can work together to bring your ideas to life.
+        </p>
+        <a href="contact.html" class="btn btn-primary">Contact Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>&copy; 2024 Jaswanth. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
